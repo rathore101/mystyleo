@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  font-family: "Monda", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.xuviBtn {
+  border-radius: 8px 10px 10px 3px;
+}
+.xuviBtn1 {
+  border-radius: 10px 8px 3px 10px;
+}
+.aiueyhx {
+  border-radius: 0px 0px 10px 10px;
+}
+/* .slidbar {
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+} */
+
+.slidbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* .Slider2 {
+  width: 100% !important;
+  min-height: 200vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  background-color: plum;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.items {
+  position: relative;
+  width: 500px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  transition: all 0.2s;
+  transform: scale(0.98);
+  will-change: transform;
+  user-select: none;
+  cursor: pointer;
+  padding: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.items {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+.items::-webkit-scrollbar {
+  display: none; 
+} */
+
+/* .box-area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin: 50px;
+} */
+/* .box img {
+  display: block;
+  transition: transform 0.5s;
+} */
+.box:hover img {
+  transform: scale(1.2);
+}
+.box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px 0px 10px 10px;
+}
+.box:hover .overlay {
+  height: 25%;
+}
+.overlay {
+  margin-top: 10;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+  border-radius: 0px 10px 0px 0px;
+  padding: 10px 10px 16px 15px;
+  /* width: 100%; */
+  /* background: linear-gradient(transparent, #1c1c1c 58%); */
+  /* border-radius: 10px; */
+  /* top: 0; */
+  /* left: 0; */
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  /* padding: 0 40px; */
+  /* text-align: center; */
+}
